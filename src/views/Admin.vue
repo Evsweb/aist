@@ -1,18 +1,18 @@
 <template>
   <div>
-    <Header/>
+    <HeaderMy/>
     <Admn/>
   </div>  
   
 </template>
 
 <script>
-import Header from '@/components/Header.vue'
+import HeaderMy from '@/components/Header.vue'
 import Admn from '@/components/Admn.vue'
 
 export default {
   components: {
-      Header, Admn
+    HeaderMy, Admn
     }
 }
 </script>

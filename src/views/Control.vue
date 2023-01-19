@@ -1,18 +1,18 @@
 <template>
   <div>
-    <Header/>
+    <HeaderMy/>
     <Cont/>
   </div>  
   
 </template>
 
 <script>
-import Header from '@/components/Header.vue'
+import HeaderMy from '@/components/Header.vue'
 import Cont from '@/components/Cont.vue'
 
 export default {
   components: {
-      Header, Cont
+    HeaderMy, Cont
     }
 }
 </script>

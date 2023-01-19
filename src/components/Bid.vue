@@ -54,6 +54,7 @@ export default {
   },
   methods: {
     addOrder: function() {
+      // eslint-disable-next-line
       this.seen = 'Add'
     }
   }

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header/>
+    <HeaderMy/>
     <div class="content">
       тут могла быть ваша реклама
     </div>
@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import Header from '@/components/Header.vue'
+import HeaderMy from '@/components/Header.vue'
 
 export default {
   components: {
-      Header
+    HeaderMy
     }
 }
 </script>

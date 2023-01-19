@@ -51,6 +51,7 @@ export default {
         'type': this.type,
         'status': this.status
         }
+        // eslint-disable-next-line
       this.bidList.push(addMe);
       this.$emit('bid')
     }

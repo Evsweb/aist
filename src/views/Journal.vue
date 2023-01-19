@@ -1,18 +1,18 @@
 <template>
   <div>
-    <Header/>
+    <HeaderMy/>
     <JournCall/>
   </div>  
   
 </template>
 
 <script>
-import Header from '@/components/Header.vue'
+import HeaderMy from '@/components/Header.vue'
 import JournCall from '@/components/JournCall.vue'
 
 export default {
   components: {
-      Header, JournCall
+    HeaderMy, JournCall
     }
 }
 </script>

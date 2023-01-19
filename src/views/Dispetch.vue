@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header/>
+    <HeaderMy/>
     <Bid v-if="seen == 'Bid'" @add="add()" :bidList=bidList />
     <BidAdd v-if="seen == 'Add'" @bid="bid()" :bidList=bidList />
   </div>  
@@ -8,13 +8,13 @@
 </template>
 
 <script>
-import Header from '@/components/Header.vue'
+import HeaderMy from '@/components/Header.vue'
 import Bid from '@/components/Bid.vue'
 import BidAdd from '@/components/BidAdd.vue'
 
 export default {
   components: {
-      Header, Bid, BidAdd
+    HeaderMy, Bid, BidAdd
     },
   data() {
     return {
