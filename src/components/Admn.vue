@@ -43,7 +43,7 @@ export default {
   data() {
     return {
       adminList: [
-        {id: 0, fio: 'Кочкина Лариса Николаевна', mail: 'tetka@mail.ru', login: 'tetka', phone: '+7(124)831-4211'},
+        {id: 0, fio: 'Кочкина Лариса Николаевна', mail: 'tetka@mail.ru', login: 'tetka', phone: '+7(124)831-4**'},
         {id: 1, fio: 'Кочкина Лариса Николаевна', mail: 'zakaz@mail.ru', login: 'zakaz', phone: '+7(124)831-4211'},
         {id: 2, fio: 'Кочкина Лариса Николаевна', mail: 'test@mail.ru', login: 'test', phone: '+7(124)831-4211'},
         {id: 3, fio: 'Кочкина Лариса Николаевна', mail: 'lolkekcheburek@yandex.ru', login: 'lolkekcheburek', phone: '+7(124)831-4211'}
